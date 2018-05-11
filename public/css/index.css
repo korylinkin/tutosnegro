@@ -4,6 +4,23 @@
   padding:0;
   box-sizing: border-box;
 }
+.calculo{
+  position: absolute;
+  background-color: red !important ;
+  right: 0 !important;
+}
+.contenedor-errores{
+  display: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color:white;
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 a {
   color: #0a8ecd;
 }

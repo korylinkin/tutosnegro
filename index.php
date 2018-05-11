@@ -11,7 +11,7 @@ $ruta = new Rutas($_SERVER);
 $enrutando = $ruta->enrutamiento();
 
 //echo var_dump($ruta->test());
-//echo var_dump($_GET);
+//echo var_dump($_SERVER);
 if($ruta->cliente_peticion()->request_method =='POST'){
 	echo Vistas::CrearVista($enrutando) ;
 }else{
