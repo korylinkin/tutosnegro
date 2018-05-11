@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+a {
+  color: #0a8ecd;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  padding: 2%;
+}
+.contenedor-general{
+
+  border:1px solid red;
+}
+img.imagen-perfil{
+  width: 50px!important;
+  height: 50px;
+  border-radius: 50%;
+}
+.menu-herramientas{
+  width: 100%;
+  padding:0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border:1px solid orange;
+}
+.footer-dream{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+}
+
+
+.card-body{
+  height: 150px;
+  overflow-y: scroll;
+}
+.boton-flotante{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  padding:3%;
+  border-radius: 50%;
+  background-color: #4caf50;
+}
+.material-icons{
+  color:white;
+  font-size: 26px;
+}
+
+/*css para setear apartir de 1000px*/
+
+@media (min-width:768px) {}
+
+/*css para mobile*/
+
+@media (min-width: 320px) and (max-width:768px) {}

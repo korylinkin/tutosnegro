@@ -1,0 +1,4 @@
+git [comando]
+
+git init -> sirve para instanciar git en la carpeta
+git status -> se fija que es lo que no esta guardado
